@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int spin, upin;
+
+    spin = 1747;
+
+    printf("Enter the PIN:\n");
+    scanf("%d", &upin);
+
+    if (spin == upin) {
+        printf("Correct PIN");
+    } else {
+        printf("Incorrect PIN");
+    }
+
+    return 0;
+}
